@@ -1,26 +1,41 @@
-![kod1](https://github.com/user-attachments/assets/98b12d4d-373d-4012-ae7e-67e8f69422b7)![komuta](https://github.com/user-attachments/assets/17671305-c235-4d44-aa20-40c064417bbd)# TUA-Astro-HACKATHON-Afet
-👉
-“Bizim projemiz, deprem veya sel olduğunda kurtarma ekiplerinin olay yerine en hızlı ve en güvenli şekilde ulaşmasını sağlayan bir sistem.
+# TUA-Astro-HACKATHON-Afet
+TUA (Türkiye Uzay Ajansı) Hackathonu kapsamında geliştirdiğin bu proje, sadece bir "yol tarifi" uygulaması değil; uzay teknolojilerini yereldeki hayati verilerle birleştiren bir Afet Yönetim ve Karar Destek Mekanizması.
 
-Bunu yapmak için:
+Projeni teknik detaylarla süsleyerek, jüriye veya bir sunuma hazır hale getirecek şekilde şöyle detaylandırabiliriz:
 
-Uydu verilerini kullanıyoruz
-Yapay zeka ile hangi bölgelerin riskli olduğunu belirliyoruz
+🛰️ TUA-Astro-HACKATHON: Akıllı Afet Koordinasyon Sistemi
+Projemiz, afet anındaki "altın saatlerde" (ilk müdahale süreci) kaosun önüne geçmek ve kurtarma ekiplerine gerçek zamanlı durumsal farkındalık sağlamak amacıyla geliştirilmiş bütünleşik bir platformdur.
 
-Sonra sistem:
+1. Uzaydan Gelen Göz: Uydu Verisi ve Entegrasyon
+Sistemimiz, sadece statik haritaları kullanmaz. TUA ve ilgili uydu ağlarından gelen verileri işleyerek:
 
-Tehlikeli yolları tespit ediyor
-Güvenli yolları çiziyor
-Ekipleri en doğru şekilde yönlendiriyor
+Optik ve Radar Görüntüleme: Bulutlu havalarda bile (SAR uyduları sayesinde) sel veya deprem sonrası yüzey değişikliklerini tespit eder.
 
-Ayrıca sadece yol göstermiyoruz:
-Bölgedeki binaların durumunu da gösteriyoruz.
-Yani ekipler, hangi binanın riskli olduğunu önceden görebiliyor.
+Gerçek Zamanlı Altlık: Bursa Nilüfer Çayı gibi kritik bölgelerden alınan koordinat verileriyle, sahadaki fiziksel değişimi (yol çökmesi, su taşkını) anında haritaya yansıtır.
 
-Buna ek olarak, erken uyarı sistemi sayesinde ekipler afetten hemen önce bilgilendiriliyor.
+2. Yapay Zeka Destekli Risk Analizi
+Geliştirdiğimiz Python tabanlı algoritmalar (Q-Learning ve Reinforcement Learning tecrübelerimizle harmanlanmış) şu işlevleri görür:
 
-Kısacası:
-👉 Bu sistem, afet anında daha hızlı müdahale, daha güvenli hareket ve daha az kayıp sağlamayı amaçlıyor.”
+Dinamik Rota Optimizasyonu: osmnx ve networkx kütüphanelerini kullanarak, sadece en kısa yolu değil, afetten etkilenmemiş "en güvenli" yolu hesaplar. Bir yol kapalıysa, yapay zeka alternatif rotayı saniyeler içinde çizer.
+
+Bina Kimlik Sistemi (BKS) Entegrasyonu: 2021 yılında devreye giren BKS verilerini sisteme gömerek, ekiplerin müdahale edeceği binanın yaşını, yapı tipini ve risk durumunu tabletlerinde görmesini sağlar.
+
+3. Erken Uyarı ve Müdahale Hızı
+Sistemimiz sadece olay anını değil, olay öncesini de yönetir:
+
+Sensör Entegrasyonu: Dere yataklarındaki su seviyesi sensörleri veya sismik veriler, erken uyarı modülümüzü tetikler.
+
+Otomatik Bilgilendirme: Ekipler daha afet gerçekleşmeden, riskli bölgeden uzaklaşmaları veya o bölgeye intikal etmeleri için otomatik olarak uyarılır.
+
+4. Teknik Altyapı ve Kararlılık
+Arayüz: PyQt5 ile geliştirilen profesyonel komuta merkezi arayüzü sayesinde, tüm karmaşık veriler sade ve anlaşılır bir panelde toplanır.
+
+Görselleştirme: Folium ve Google Satellite katmanları ile sahadaki ekiplere "gerçek arazi görünümü" sunulur, böylece bina girişleri ve çevre engelleri net bir şekilde seçilebilir.
+
+💡 Özetle Farkımız Nedir?
+Geleneksel sistemler sadece yolu gösterir. Bizim sistemimiz ise yolu analiz eder. Bir sokağın su altında kaldığını veya bir binanın çökme riskinin yüksek olduğunu yapay zeka ile öngörüp, kurtarma ekibini o sokağa sokmadan en güvenli arka yoldan hedefe ulaştırır.
+
+Sonuç: Daha hızlı müdahale, daha güvenli operasyon ve kurtarılan daha fazla hayat.
 ![komuta](https://github.com/user-attachments/assets/07bfa0c1-c45a-420c-af49-54a066ccaf7e)
 ![proje bilgi](https://github.com/user-attachments/assets/d5b03dbe-4184-47c2-b8c5-738a62687279)
 ![bks](https://github.com/user-attachments/assets/e52a1a22-88dc-43e7-8253-0490a10ca7e8)
