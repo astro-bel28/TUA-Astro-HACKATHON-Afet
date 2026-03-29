@@ -25,6 +25,8 @@ Kısacası:
 ![proje bilgi](https://github.com/user-attachments/assets/d5b03dbe-4184-47c2-b8c5-738a62687279)
 ![bks](https://github.com/user-attachments/assets/e52a1a22-88dc-43e7-8253-0490a10ca7e8)
 ![analiz](https://github.com/user-attachments/assets/ed97d5d8-a853-42cd-959f-11c1466163a2)
-![Uploadi![kod2](https://github.com/user-attachments/assets/840210cc-a3f0-4c28-9024-1f8abd0823cc)
-ng kod1.jpg…]()
+![kod1](https://github.com/user-attachments/assets/b38bf0aa-53c7-42b9-a68e-f51535c4eac2)
+![kod2](https://github.com/user-attachments/assets/bd6e0c74-f17c-41a1-be96-7aba7bc9b5be)
+
+
 
